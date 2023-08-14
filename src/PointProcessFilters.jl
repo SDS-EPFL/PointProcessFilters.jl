@@ -16,6 +16,8 @@ export
     circlepass, 
     centeredboxpass, 
     centeredcirclepass,
-    RegionPassFilter
+    RegionPassFilter,
+    Point,
+    PointSet
 
 end
