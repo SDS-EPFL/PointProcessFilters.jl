@@ -10,7 +10,7 @@ Currently only provides bandpass filters for a variety of spatial regions.
 The basic version is provided by an extension of the `filter` function.
 
 ```@docs
-filter(::PointSet{D,T}, ::SpatialFilter{D}) where {D,T}
+filter(::PointSet, ::PointProcessFilters.SpatialFilter)
 ```
 
 However, convenience functions are provided for some common choices of region, see [Available Regions](@ref).
