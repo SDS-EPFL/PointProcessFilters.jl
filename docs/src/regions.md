@@ -10,21 +10,25 @@ circlepass
 ```
 
 ## Centered Ball
+
 ```@docs
 centeredcirclepass
 ```
 
 ## Ring
+
 ```@docs
 ringpass
 ```
 
 ## Box
+
 ```@docs
 boxpass
 ```
 
 ## Centered Box
+
 ```@docs
 centeredboxpass
 ```
