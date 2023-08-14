@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/src/assets/logo-dark.png">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="./docs/src/assets/logo.png">
+</picture>
+
 # PointProcessFilters
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://SDS-EPFL.github.io/PointProcessFilters.jl/stable/)
