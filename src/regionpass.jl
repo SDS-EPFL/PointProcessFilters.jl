@@ -40,7 +40,7 @@ The output can be evaluated as a function.
 
 # Example
 ```julia
-r = 1.0
+r = RegionPassFilter(Ball(Point(0.3,0.3),0.1))
 X = PointSet(Point.(rand(10), rand(10)))
 Y = filter(X, r)
 Y(1.0,1.0)
