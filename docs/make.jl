@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(PointProcessFilters, :DocTestSetup, :(using PointProcessFilt
 makedocs(;
     modules=[PointProcessFilters],
     authors="Jake Grainger",
-    repo="https://github.com/JakeGrainger/PointProcessFilters.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/SDS-EPFL/PointProcessFilters.jl/blob/{commit}{path}#{line}",
     sitename="PointProcessFilters.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://JakeGrainger.github.io/PointProcessFilters.jl",
+        canonical="https://SDS-EPFL.github.io/PointProcessFilters.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/JakeGrainger/PointProcessFilters.jl",
+    repo="github.com/SDS-EPFL/PointProcessFilters.jl",
     devbranch="main",
 )
