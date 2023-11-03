@@ -9,9 +9,9 @@ Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 [compat]
-julia = "1.9"
-Meshes = "0.34.11"
+Meshes = "0.34.11, 0.35"
 SpecialFunctions = "2.3.1"
+julia = "1.9"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
